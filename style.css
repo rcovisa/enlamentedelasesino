@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@100..1000&display=swap');
+
+        body {
+            font-family: 'Roboto Flex', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        
+            background-color: #1b1a1a;
+
+           
+        }
+
+        #palabra {
+            font-size: 5rem;
+            display: flex;
+            padding-right: 150px
+            text-align:center;
+            color: #ffffff ;
+            
+        }
+        
+        p{
+            margin-right: 200px;
+        }
+        .letra {
+            transition: all 0.2s ease;
+            cursor: pointer;
+            
+        }
+        @media only screen and (max-width: 768px) {
+    body {
+        font-size: 16px; /* Ajusta el tamaño de fuente para móviles */
+        padding: 10px;   /* Añade un poco de padding */
+    }
+
+    h1 {
+        font-size: 24px; /* Tamaño de encabezado más pequeño */
+    }
+
+    p {
+        line-height: 1.5; /* Mejora la legibilidad del texto */
+    }
+
+    .container {
+        width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
+        padding: 0;   /* Elimina el padding en móviles */
+    }
+    
